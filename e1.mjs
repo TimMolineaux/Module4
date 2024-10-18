@@ -7,3 +7,5 @@ let zijde2 = parseFloat(await userInput.question("Vul de breedte in: "));
 let oppervlakte = zijde1 * zijde2;
 
 console.log(`De oppervlakte is ${oppervlakte}`);
+
+process.exit();
